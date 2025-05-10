@@ -86,9 +86,9 @@ app.use((req, res, next) => {
     next();
 });
 
-app.get("/", (req,res)=> {
-    res.send("Hi,I am aagaz");
-});
+// app.get("/", (req,res)=> {
+//     res.send("Hi,I am aagaz");
+// });
 
 app.get("/demouser", async (req, res) => {
     let fakeUser = new User ({
